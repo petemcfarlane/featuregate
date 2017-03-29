@@ -1,0 +1,21 @@
+{
+    "name": "petemc/featuregate",
+    "description": "A simple feature gate for PHP",
+    "keywords": ["gate", "feature gate"],
+    "homepage": "https://petemcfarlane.com",
+    "authors": [
+        {
+            "name": "Pete McFarlane",
+            "email": "pete@petemcfarlane.com"
+        }
+    ],
+    "license": "MIT",
+    "require": {
+        "phpunit/phpunit": "^6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "PeteMc\\FeatureGate\\": "src/PeteMc/FeatureGate"
+        }
+    }
+}
